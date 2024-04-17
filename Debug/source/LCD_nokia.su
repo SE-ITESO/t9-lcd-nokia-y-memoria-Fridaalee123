@@ -1,0 +1,10 @@
+D:\Escuela\EmbebidosMCU\T9_LCDNokia\T9_LCD_Nokia\drivers/fsl_gpio.h:191:20:GPIO_PortSet	16	static
+D:\Escuela\EmbebidosMCU\T9_LCDNokia\T9_LCD_Nokia\drivers/fsl_gpio.h:206:20:GPIO_PortClear	16	static
+../source/LCD_nokia.c:119:6:LCD_nokia_init	8	static
+../source/LCD_nokia.c:134:6:LCD_nokia_bitmap	24	static
+../source/LCD_nokia.c:140:6:LCD_nokia_write_byte	32	static
+../source/LCD_nokia.c:157:6:LCD_nokia_send_char	24	static
+../source/LCD_nokia.c:169:6:LCD_nokia_send_string	16	static
+../source/LCD_nokia.c:174:6:LCD_nokia_clear	16	static
+../source/LCD_nokia.c:181:6:LCD_nokia_goto_xy	16	static
+../source/LCD_nokia.c:186:6:LCD_nokia_delay	16	static

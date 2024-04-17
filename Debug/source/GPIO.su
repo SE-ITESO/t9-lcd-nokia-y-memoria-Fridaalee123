@@ -1,0 +1,4 @@
+D:\Escuela\EmbebidosMCU\T9_LCDNokia\T9_LCD_Nokia\drivers/fsl_clock.h:668:20:CLOCK_EnableClock	24	static
+D:\Escuela\EmbebidosMCU\T9_LCDNokia\T9_LCD_Nokia\drivers/fsl_port.h:271:20:PORT_SetPinConfig	32	static
+D:\Escuela\EmbebidosMCU\T9_LCDNokia\T9_LCD_Nokia\drivers/fsl_port.h:374:20:PORT_SetPinMux	24	static
+../source/GPIO.c:19:6:GPIO_init	16	static
