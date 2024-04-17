@@ -44,8 +44,8 @@ void SPI_config_nokia_memory(void) //Configuracion del SPI
     masterConfig.whichCtar                                = kDSPI_Ctar1;					//Canal 1
     masterConfig.ctarConfig.baudRate                      = TRANSFER_BAUDRATE_MEMORY;		//Velocidad de transmision
     masterConfig.ctarConfig.bitsPerFrame                  = 8U;
-    masterConfig.ctarConfig.cpol                          = kDSPI_ClockPolarityActiveHigh;
-    masterConfig.ctarConfig.cpha                          = kDSPI_ClockPhaseFirstEdge;
+    masterConfig.ctarConfig.cpol                          = kDSPI_ClockPolarityActiveLow;	//Polaridad 1
+    masterConfig.ctarConfig.cpha                          = kDSPI_ClockPhaseSecondEdge;		//Phase 1
     masterConfig.ctarConfig.direction                     = kDSPI_MsbFirst;
     masterConfig.ctarConfig.pcsToSckDelayInNanoSec        = 1000000000U / TRANSFER_BAUDRATE_MEMORY;
     masterConfig.ctarConfig.lastSckToPcsDelayInNanoSec    = 1000000000U / TRANSFER_BAUDRATE_MEMORY;
