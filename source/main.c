@@ -13,12 +13,13 @@
 
 int main(void)
 {
-	GPIO_init();
-	SPI_config_nokia_memory();
+	GPIO_init(); 				//Inicializacion de puertos y pines
+	SPI_config_nokia_memory();	//Configuracion de la memoria
+	LCD_nokia_init();			//Inicializacion de la pantalla LCD
 
 	for(;;)
 	{
-
+		Reproduce_picture();	//Reproduce las imagenes en la pantalla periodicamente
 	}
 	return 0;
 }
