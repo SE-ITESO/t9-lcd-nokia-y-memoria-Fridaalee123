@@ -17,6 +17,13 @@
 #define PIN16_IDX       16u   /*!< Pin number for pin 16 in a port */
 #define PIN17_IDX       17u   /*!< Pin number for pin 17 in a port */
 
+#define PORT_DATA_OR_CMD_PIN PORTC
+#define GPIO_DATA_OR_CMD_PIN GPIOC
+#define DATA_OR_CMD_PIN 	5U
+#define RESET_PIN 			7U
+#define PORT_RESET_PIN 		PORTC
+#define GPIO_RESET_PIN 		GPIOC
+
 void GPIO_init(void);
 
 #endif /* GPIO_H_ */
